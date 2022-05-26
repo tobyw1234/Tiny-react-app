@@ -14,18 +14,42 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #2b5ab8;
+  min-height: 25vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(50px + 2vmin);
+  color: rgb(202, 126, 126);
+  border-radius: 5px;
+
+}
+
+.Tasks {
+  list-style-type: none;
+}
+
+.ToDo-List {
+  font-size: 1.5em;
+  font-family: fantasy;
+  color: deeppink;
+  background-color: chartreuse;
+  border-radius: 5px;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.Button {
+  background-color: #61dafb;
+  border-radius: 5px;
+  border-color: #34b82b;
+  padding: 10px;
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: maroon;
 }
 
 @keyframes App-logo-spin {
